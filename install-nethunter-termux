@@ -4,8 +4,6 @@ VERSION=2020011601
 BASE_URL=https://kali.download/nethunter-images/current/rootfs
 USERNAME=kali
 
-
-
 function unsupported_arch() {
     printf "${red}"
     echo "[*] Unsupported Architecture\n\n"
@@ -63,33 +61,9 @@ function get_arch() {
 }
 
 function set_strings() {
-    echo \
-    && echo "" 
-    ####
-    lif [[ ${SYS_ARCH} == "armhf" ]];
-    then
-        echo "[1] NetHunter ARMhf (full)"
-        echo "[2] NetHunter ARMhf (minimal)"
-        echo "[3] NetHunter ARM64 (nano)"
-        read -p "Enter the image you want to install: " wimg
-        if (( $wimg == "1" ));
-        then
-            wimg="full"
-        elif (( $wimg == "2" ));
-        then
-            wimg="minimal"
-        elif (( $wimg == "3" ));
-        then
-            wimg="nano"
-        else
-            wimg="full"
-        fi
-    ####
-
-
     CHROOT=kali-${SYS_ARCH}
-    IMAGE_NAME=kalifs-${SYS_ARCH}-${wimg}.tar.xz
-    SHA_NAME=kalifs-${SYS_ARCH}-${wimg}.sha512sum
+    IMAGE_NAME=kalifs-${SYS_ARCH}-full.tar.xz
+    SHA_NAME=kalifs-${SYS_ARCH}-full.sha512sum
 }    
 
 function prepare_fs() {
