@@ -2,7 +2,7 @@
 
 VERSION=2020011601
 BASE_URL=https://kali.download/nethunter-images/current/rootfs
-USERNAME=kali
+USERNAME=ajie
 
 function unsupported_arch() {
     printf "${red}"
