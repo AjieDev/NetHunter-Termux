@@ -91,16 +91,16 @@ function set_strings() {
         read -p "Enter the image you want to install: " wimg
         if (( $wimg == "1" ));
         then
-            wimg="minimal"
+            wimg="full"
         elif (( $wimg == "2" ));
+        then
+            wimg="minimal"
+        elif (( $wimg == "3" ));
         then
             wimg="nano"
         else
-            wimg="minimal"
+            wimg="full"
         fi
-        else
-        wimg="full"
-    fi
     ####
 
 
