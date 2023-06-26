@@ -66,25 +66,7 @@ function set_strings() {
     echo \
     && echo "" 
     ####
-    if [[ ${SYS_ARCH} == "arm64" ]];
-    then
-        echo "[1] NetHunter ARM64 (full)"
-        echo "[2] NetHunter ARM64 (minimal)"
-        echo "[3] NetHunter ARM64 (nano)"
-        read -p "Enter the image you want to install: " wimg
-        if (( $wimg == "1" ));
-        then
-            wimg="full"
-        elif (( $wimg == "2" ));
-        then
-            wimg="minimal"
-        elif (( $wimg == "3" ));
-        then
-            wimg="nano"
-        else
-            wimg="full"
-        fi
-    elif [[ ${SYS_ARCH} == "armhf" ]];
+    lif [[ ${SYS_ARCH} == "armhf" ]];
     then
         echo "[1] NetHunter ARMhf (full)"
         echo "[2] NetHunter ARMhf (minimal)"
