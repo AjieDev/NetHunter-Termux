@@ -3,7 +3,7 @@ Modified version add full kali linux build for armhf architecture (Skipped selec
 
 # Additional Info
 
-They changed script installer and add more kali linux Rootfs( Full , Minimal , Nano ) , you can see all Rootfs Nethunter kali [here](https://kali.download/nethunter-images/current/rootfs/)
+They changed script installer and add more kali linux Rootfs( Full , Minimal , Nano ) , you can see all Rootfs Nethunter kali [here](https://kali.download/nethunter-images/current/rootfs/) <br />
 ARMhf/32bit user complained because there was no Full option, so I modified it so that it can be installed on the ARMhf/32 bit arch for the full version
 
 # How to install
