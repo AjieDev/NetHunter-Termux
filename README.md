@@ -1,6 +1,11 @@
 # NetHunter-Termux
 Modified version add full kali linux build for armhf architecture (Skipped select version). the original is deleted and fix vnc command not found<br />
 
+# Additional Info
+
+They changed script installer and add more kali linux Rootfs( Full , Minimal , Nano )
+ARMhf/32bit user complained because there was no Full option, so I modified it so that it can be installed on the ARMhf/32 bit arch for the full version
+
 # How to install
 
 same as the original
