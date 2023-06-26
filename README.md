@@ -17,7 +17,6 @@ apt update && apt upgrade -y
 <b>3. Install wget</b><br />
 
 ```
-
 apt install wget
 ```
 
