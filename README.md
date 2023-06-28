@@ -28,7 +28,7 @@ apt install wget
 <b>4. Download the nethunter installer</b><br />
 
 ```
-wget -O install-nethunter-termux https://bit.ly/ajiedev-inkex
+wget -O install-nethunter-termux https://ajiedev-net.rf.gd/install-nethunter-termux
 ```
 <b>5. Make installer executeable</b><br />
 
