@@ -30,6 +30,12 @@ apt install wget
 ```
 wget -O install-nethunter-termux https://bit.ly/ajiedev-intkex
 ```
+
+<b> Indonesian Version</b><br />
+
+```
+wget -O install-nethunter-termux bit.ly/ajiedev-intkex-id
+```
 <b>5. Make installer executeable</b><br />
 
 ```
