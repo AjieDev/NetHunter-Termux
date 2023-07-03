@@ -1,4 +1,4 @@
-# NetHunter-Termux
+# Kali NetHunter Termux
 Modified version add full kali linux build for armhf architecture (Skipped select version). the original is deleted and fix vnc command not found<br />
 
 # Additional Info
@@ -28,7 +28,7 @@ apt install wget
 <b>4. Download the nethunter installer</b><br />
 
 ```
-wget -O install-nethunter-termux https://ajiedev-net.rf.gd/install-nethunter-termux
+wget -O install-nethunter-termux http://code.ajiedev-net.rf.gd/install-nethunter-termux
 ```
 <b>5. Make installer executeable</b><br />
 
